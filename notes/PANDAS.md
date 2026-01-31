@@ -118,10 +118,10 @@ df.to_excel("hasil.xlsx")
 
 **Berdasar struktur tutorial Pandas yang umum:** [`YouTube`](https://www.youtube.com/watch%3Fv%3DVXtjG_GzO7Q?utm_source=chatgpt.com)
 
-✅ Mulai selalu dengan `import pandas as pd`.
-✅ Pahami perbedaan Series vs DataFrame.
-✅ Lakukan eksplorasi awal data (`head()`, `shape`).
-✅ Gunakan operasi seleksi/filter sebelum analisis kompleks.
+✅ Mulai selalu dengan `import pandas as pd`.<br>
+✅ Pahami perbedaan Series vs DataFrame.<br>
+✅ Lakukan eksplorasi awal data (`head()`, `shape`).<br>
+✅ Gunakan operasi seleksi/filter sebelum analisis kompleks.<br>
 ✅ Coba groupby dan agregasi untuk insight cepat.
 
 ## 🧪 Contoh Implementasi Praktik Pandas (Ringkas)
