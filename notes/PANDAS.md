@@ -1,5 +1,7 @@
 # 🐼 Learn Pandas in 1 hour! (Python Pandas Tutorial)<br>[Learn Pandas From Channel Bro Code](https://youtu.be/VXtjG_GzO7Q?utm_source=chatgpt.com)
 
+---
+
 ## 🧠 1. Apa itu Pandas dan Kenapa Penting?
 
 📍 Pandas adalah library Python yang digunakan untuk mengolah dan menganalisis data secara efisien.
@@ -10,6 +12,8 @@
 
 👉 **Series** = satu kolom data (mirip list/array satu dimensi).
 👉 **DataFrame** = tabel data dua dimensi, mirip spreadsheet.
+
+---
 
 ## 📥 2. Instalasi & Setup
 
@@ -25,6 +29,8 @@ pip install pandas
 import pandas as pd
 ```
 
+---
+
 ## 🧩 3. Membaca / Mengimpor Data
 
 **3.1 Contoh file CSV atau Excel:**
@@ -36,6 +42,8 @@ df_excel = pd.read_excel("data.xlsx")
 
 📌 Ini adalah langkah paling awal dalam workflow analisis data: membaca dataset.
 
+---
+
 ## 🔍 4. Eksplorasi Data (EDA Basic)
 
 ### 📌 Menampilkan kolom dan ukuran data
@@ -46,6 +54,8 @@ df.tail()       # lihat baris terakhir
 df.shape        # ukuran (baris, kolom)
 df.columns      # daftar nama kolom
 ```
+
+---
 
 ## 📊 5. Seleksi dan Filtering Kolom / Baris
 
@@ -62,6 +72,8 @@ df_names = df[["Name", "Salary"]]
 ```
 
 📌 Intinya: Pandas memungkinkan kita memilih subset data berdasarkan kondisi logis.
+
+---
 
 ## 🛠 6. Operasi Dasar pada DataFrame
 
@@ -85,6 +97,8 @@ df.dropna()
 
 📍 Kamu belajar bagaimana membersihkan dataset sebelum analisis lebih lanjut.
 
+---
+
 ## 📈 7. Agregasi & Grouping Data
 
 ### Contoh: Total gaji berdasarkan jabatan
@@ -94,6 +108,8 @@ df.groupby("Job")["Salary"].sum()
 ```
 
 👉 Ini sangat berguna untuk menganalisis statistik per kelompok (statistik deskriptif).
+
+---
 
 ## 🧮 8. Operasi Statistik Dasar
 
@@ -105,6 +121,8 @@ df.describe()   # ringkasan statistik (count, mean, std, dll.)
 
 📌 describe() sering dipakai untuk cepat mengetahui gambaran umum dataset.
 
+---
+
 ## 🧾 9. Menyimpan / Mengekspor Data
 
 ```python
@@ -113,6 +131,8 @@ df.to_excel("hasil.xlsx")
 ```
 
 📌 Ini penting ketika kamu sudah selesai membersihkan atau memproses data dan ingin menyimpannya.
+
+---
 
 ## 💡 10. Tips Praktis dari Video
 
